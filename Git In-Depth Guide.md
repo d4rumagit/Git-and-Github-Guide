@@ -90,11 +90,10 @@ git --version
 
 ---
 ---
-## <h1 style="text-align: center";>Part 2: Creating a GitHub Account</h1>
+## Part 2: Creating a GitHub Account
 
 
----
----
+
 
 
 If you don't have a GitHub account:
@@ -177,8 +176,8 @@ In open source, sharing your email is mostly a courtesy.
 ## <h1 style="text-align: center;">Part 3: First-Time Git Setup</h1>
 
 
----
----
+
+
 
 
 ```bash
@@ -230,8 +229,8 @@ optional but you can create them at anytime, like I did below.
 ## <h1 style="text-align: center;">Part 4: Your First Local Repository</h1>
 
 
----
----
+
+
 
 
 Let's create a simple project and turn it into a Git repository.
@@ -379,8 +378,8 @@ git log
 <h1 style="text-align: center;">Part 5: Connecting to GitHub</h1>
 
 
----
----
+
+
 
 
 
@@ -448,8 +447,8 @@ git@github.com:yourusername/my-project.git
 
 <h1 style="text-align: center;">Part 6: Creating a Personal Access Token (PAT)</h1>
 
----
----
+
+
 
 <p align="center">
   <a href="./images/-personal-access-token.png">
@@ -497,8 +496,8 @@ GitHub stopped accepting account passwords for pushing via HTTPS, so now you nee
 # Part 7: Pushing to GitHub
 
 
----
----
+
+
 
 ### Step 1: Connect Your Local Repo to GitHub
 
@@ -649,9 +648,10 @@ git remote remove origin          # Remove remote
 ---
 
 
----
+
 
 # Part 10: Using Git with KATE and Obsidian
+
 
 ### For KATE Users
 
