@@ -90,7 +90,7 @@ git --version
 
 ---
 ---
-## Part 2: Creating a GitHub Account
+# Part 2: Creating a GitHub Account
 
 
 
@@ -156,8 +156,8 @@ if this is ON, then pushes will be blocked
 
 
 <p align="center">
-  <a href="spam-meme.png">
-    <img src="spam-meme.png" width="400" alt="Spam EVERYWHERE!">
+  <a href="./images/spam-meme.png">
+    <img src="./images/spam-meme.png" width="400" alt="Spam EVERYWHERE!">
   </a>
 </p>
 
