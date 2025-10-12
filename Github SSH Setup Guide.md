@@ -3,7 +3,8 @@
 
 ## What Are SSH Keys?
 
-SSH (Secure Shell) keys are a pair of cryptographic keys that ==allow you to authenticate with GitHub without entering your username and password every time you push or pull.== Think of it like a secure key card that lets you access your repositories automatically.
+SSH (Secure Shell) keys are a pair of cryptographic keys that 
+<span style="background-color: yellow;">allow you to authenticate with GitHub without entering your username and password every time you push or pull.</span> allow you to authenticate with GitHub without entering your username and password every time you push or pull.Think of it like a secure key card that lets you access your repositories automatically.
 
 ## Why Use SSH Keys?
 
