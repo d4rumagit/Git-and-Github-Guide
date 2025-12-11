@@ -10,7 +10,7 @@ I will add and update as time goes. :))
 
 ## Navigation
 
-- [>I have GIT, I Just Need a Repo<](Git%20it%20Now!%20Guide.md)
+- [>I have GIT, I Just Need a Repo<](Git%20It%20Now!%20Guide.md)
 - [Full Guide](Git%20with%20Github%20Guide.md)
 - [Quick Start Guide](Git%20Quickstart%20Guide.md)
 - [Text Editors with Git Guide (limited)](Git%20with%20Text%20Editors%20Guide.md)
