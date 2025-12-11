@@ -1,10 +1,6 @@
-/* Full In-Depth Git & GitHub Guide with Embedded Quick Start Material */
 
-If you're reading this, you probably want to start using Git to save your code, track changes, and push projects to GitHub. This guide will walk you through everything from installation to your first push. 
 
 ---
-
-## What You'll Learn
 
 - Installing Git on your system
     
