@@ -27,9 +27,9 @@ A comprehensive collection of guides to help you learn Git and GitHub, from abso
 
 **Choose your path:**
 
-- **Need results now?** → [Quick Start](#quick start)
-- **Want deep understanding?** → [[Git with Github Guide]] (comprehensive)
-- **Using specific editors?** → [[Git with Text Editors Guide]] (KATE/Obsidian)
+- **Need results now?** → [Quick Start](#quick-start)
+- **Want deep understanding?** → [Git with Github Guide](Git%20with%20Github%20Guide.md) (comprehensive)
+- **Using specific editors?** → [Git with Text Editors Guide](Git%20with%20Text%20Editors%20Guide.md) (KATE/Obsidian)
 
 ---
 
