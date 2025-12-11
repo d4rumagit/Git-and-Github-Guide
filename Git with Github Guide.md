@@ -6,13 +6,6 @@ If you're reading this, you probably want to start using Git to save your code, 
 
 
 ---
-
-# “Fast Track / Quick Start”
-## Want to push a repo in 3 commands? Here’s the TLDR below.
-
-bash # 1. Initialize and commit git init git add . git commit -m "Initial commit" # 2. Create repo on GitHub (github.com), then: git remote add origin https://github.com/yourusername/repo-name.git # 3. Push git push -u origin main
-
-
 <h1 style="text-align: center";> <u>!!  This guide will unfortunately only have examples being performed from a Linux Machine  !! </u></h1>
 
 
