@@ -10,13 +10,14 @@ I will add and update as time goes. :))
 
 ## Navigation
 
-- [Full Guide](Git%20In-Depth%20Guide.md)
+- [>I have GIT, I Just Need a Repo<](Git%20it%20Now!%20Guide.md)
+- [Full Guide](Git%20with%20Github%20Guide.md)
 - [Quick Start Guide](Git%20Quickstart%20Guide.md)
-- [Text Editors with Git Guide (limited)](Git%20with%20Text%20Editors.md)
+- [Text Editors with Git Guide (limited)](Git%20with%20Text%20Editors%20Guide.md)
 - [Github SSH Setup Guide](Github%20SSH%20Setup%20Guide.md)
 - [Prerequisites](#prerequisites)
 - [Resources](#resources)
-- [License](#license)
+- [License & Contributing](#license)
 
 ---
 
@@ -26,9 +27,9 @@ A comprehensive collection of guides to help you learn Git and GitHub, from abso
 
 **Choose your path:**
 
-- **Need results now?** → Quick Start Guide (15 minutes)
-- **Want deep understanding?** → Complete Beginner's Guide (comprehensive)
-- **Using specific editors?** → Git with Text Editors (KATE/Obsidian)
+- **Need results now?** → [Quick Start](#quick start)
+- **Want deep understanding?** → [[Git with Github Guide]] (comprehensive)
+- **Using specific editors?** → [[Git with Text Editors Guide]] (KATE/Obsidian)
 
 ---
 
@@ -54,7 +55,7 @@ A comprehensive collection of guides to help you learn Git and GitHub, from abso
     - Get your first repository on GitHub TODAY
     - Skip the theory, just the essential commands
     - Perfect for: Time-pressed developers, quick reference
-2. **Complete Beginner's Guide** - _Comprehensive_
+2. **Complete Beginner's Guide** - _Comprehensive_[Git Quickstart Guide]]
     
     - In-depth explanations of every concept
     - Privacy and security best practices
@@ -159,13 +160,6 @@ git push -u origin main
 - [gitignore.io](https://www.toptal.com/developers/gitignore) - Generate .gitignore files
 - [GitHub Desktop](https://desktop.github.com/) - GUI alternative to command line
 
----
-
-## License
-
-These guides are free to use, share, and modify. If you found them helpful, share them with others learning Git!
-
-**Found an error or want to contribute?** Issues and improvements are welcome.
 
 ---
 

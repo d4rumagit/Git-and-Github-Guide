@@ -1,14 +1,18 @@
 
 
-
-
 <p align="center"> <img src="./images/complete-guide-banner.png" alt="Git & GitHub Complete Guide" width="700"> </p> 
 
-If you're reading this, you probably want to start using Git to save your code, track changes, and push projects to GitHub. This guide will walk you through everything from installation to your first push. No fluff, just the stuff you need to know.
-
+If you're reading this, you probably want to start using Git to save your code, track changes, and push projects to GitHub or Get another contributor's repo! This guide will walk you through everything from installation to your first push. 
 
 
 ---
+
+# “Fast Track / Quick Start”
+## Want to push a repo in 3 commands? Here’s the TLDR below.
+
+bash # 1. Initialize and commit git init git add . git commit -m "Initial commit" # 2. Create repo on GitHub (github.com), then: git remote add origin https://github.com/yourusername/repo-name.git # 3. Push git push -u origin main
+
+
 <h1 style="text-align: center";> <u>!!  This guide will unfortunately only have examples being performed from a Linux Machine  !! </u></h1>
 
 
@@ -93,7 +97,7 @@ git --version
 # Part 2: Creating a GitHub Account
 
 
-
+### *Quick Start note: copy HTTPS URL from GitHub repo page
 
 
 If you don't have a GitHub account:

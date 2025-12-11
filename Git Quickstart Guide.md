@@ -6,7 +6,7 @@
 
 Want to push code to GitHub **RIGHT NOW**? Follow these steps. This is the express lane.
 
-> **New to Git?** This gets you pushing code FAST. For detailed explanations, privacy tips, troubleshooting, and best practices, see the [Complete Guide](Git%20In-Depth%20Guide.md).
+> **New to Git?** This gets you pushing code FAST. For detailed explanations, privacy tips, troubleshooting, and best practices, see the [Complete Guide](Git%20with%20Github%20Guide.md).
 
 ---
 
@@ -96,7 +96,7 @@ If you don't have a GitHub account:
 >
 > Find your noreply address under **GitHub → Settings → Emails → "Keep my email addresses private."**
 >
-> **For full privacy setup details, see the [Complete Guide](Git%20In-Depth%20Guide.md#part-2-creating-a-github-account).**
+> **For full privacy setup details, see the [Complete Guide](Git%20with%20Github%20Guide.md#part-2-creating-a-github-account).**
 
 ---
 
@@ -282,14 +282,14 @@ https://github.com/yourusername/my-project.git
 
 GitHub stopped accepting account passwords for pushing via HTTPS, so now you need a **Personal Access Token (PAT)** instead.
 
-### Step 1: Navigate to the PAT Page
+###  1: Navigate to the PAT Page
 1. Click on your **Profile** (top right)
 2. Go to **Settings**
 3. **Developer settings** (bottom of sidebar)
 4. **Personal access tokens → Tokens (classic)**
 5. Click **"Generate new token"** → **"Tokens (classic)"**
 
-### Step 2: Configure Your Token
+### 2: Configure Your Token
 **Give it a name:** `my-project`
 
 **Set an expiration:** 
@@ -299,7 +299,7 @@ GitHub stopped accepting account passwords for pushing via HTTPS, so now you nee
 **Pick permissions:**
 - Check `repo` (full control of private repositories)
 
-### Step 3: Generate and Save It
+### 3: Generate and Save It
 1. Click **"Generate token"**
 2. **Copy it immediately** — you won't see it again!
 3. Store it in a password manager
@@ -414,10 +414,10 @@ That's it! Your changes are now on GitHub.
 ## What's Next?
 
 ### Want to understand what you just did?
-Read the [Complete Beginner's Guide](Git%20In-Depth%20Guide.md) for detailed explanations of every command, best practices, and troubleshooting.
+Read the [Complete Beginner's Guide](Git%20with%20Github%20Guide.md) for detailed explanations of every command, best practices, and troubleshooting.
 
 ### Using KATE or Obsidian?
-See [Git with Text Editors](Git%20with%20Text%20Editors.md) for editor-specific workflows.
+See [Git with Text Editors Guide](Git%20with%20Text%20Editors%20Guide.md) for editor-specific workflows.
 
 ### Quick Command Reference
 ```bash
@@ -450,7 +450,7 @@ git push
 git reset --soft HEAD~1
 ```
 
-**For more issues, see [Common Issues & Solutions](Git%20In-Depth%20Guide.md#part-11-common-issues-and-solutions)**
+**For more issues, see [Common Issues & Solutions](Git%20with%20Github%20Guide.md#part-11-common-issues-and-solutions)**
 
 ---
 # Start From Scratch
@@ -490,3 +490,66 @@ Refresh your repo in Github and you're all set.
 **Remember:** Everyone gets confused at first. You'll make mistakes, push the wrong thing, or mess up a commit. That's normal! The best way to learn is by doing.
 ---
 
+
+---
+
+## Starting a New Project from Scratch
+
+If you're creating a brand new project, start by initializing Git locally. Then you can create a repository on GitHub and push your code up.
+
+**Step 1: Create a folder for your project**
+
+**Mac/Linux:**
+```bash
+mkdir my-project
+cd my-project
+```
+
+**Windows (Command Prompt):**
+```bash
+mkdir my-project
+cd my-project
+```
+
+**Windows (PowerShell):**
+```powershell
+mkdir my-project
+cd my-project
+```
+
+**Step 2: Initialize Git in that folder**
+
+All systems use the same command:
+```bash
+git init
+```
+
+This creates a hidden `.git` folder that tracks your project's history.
+
+**Step 3: Add your files and make your first commit**
+
+All systems use the same commands:
+```bash
+git add .
+git commit -m "Initial commit"
+```
+
+**Step 4: Connect to a GitHub repository**
+
+First, create an empty repository on GitHub, then run these commands (same for all systems):
+
+```bash
+git remote add origin https://github.com/username/my-project.git
+git branch -M main
+git push -u origin main
+```
+
+Your project is now on GitHub and synchronized with your local folder!
+
+---
+
+## Key Takeaway
+
+- **Use `git clone`** when copying an existing project from GitHub
+- **Use `git init`** when starting a brand new project locally
+- Most Git commands are the same across Mac, Windows, and Linux—only folder navigation differs slightly

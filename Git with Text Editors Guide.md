@@ -8,7 +8,7 @@ A guide for integrating Git with popular text editors like KATE and Obsidian.
 
 > **Already have Git and GitHub set up?** Great! This guide shows you how to use Git with your favorite text editor.
 >
-> **New to Git?** Start with the [Quick Start Guide](Git%20Quickstart%20Guide.md) or [Complete Guide](Git%20In-Depth%20Guide.md) first.
+> **New to Git?** Start with the [Quick Start Guide](Git%20Quickstart%20Guide.md) or [Complete Guide](Git%20with%20Github%20Guide.md) first.
 
 
 ---
@@ -391,7 +391,7 @@ git diff
 ## Need More Help?
 
 - **Git basics**: See the [Quick Start Guide](Git%20Quickstart%20Guide.md)
-- **Detailed explanations**: See the [Complete Guide](Git%20In-Depth%20Guide.md)
-- **Troubleshooting**: See [Common Issues](Git%20In-Depth%20Guide.md#part-11-common-issues-and-solutions)
+- **Detailed explanations**: See the [Complete Guide](Git%20with%20Github%20Guide.md)
+- **Troubleshooting**: See [Common Issues](Git%20with%20Github%20Guide.md#part-11-common-issues-and-solutions)
 
 ---
