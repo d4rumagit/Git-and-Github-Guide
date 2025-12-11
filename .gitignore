@@ -1,5 +1,4 @@
 .obsidian/
-.appearance.json/ 
-.community-plugins.json/
-.core-plugins.json/
-
+appearance.json
+community-plugins.json
+core-plugins.json
